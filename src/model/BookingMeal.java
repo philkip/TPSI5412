@@ -6,6 +6,7 @@ public class BookingMeal
 {
 	ArrayList<Restaurante> restaurante;
 	ArrayList<Cliente> clientes;
+	private int id;
 	
 	
 	public BookingMeal(ArrayList<Restaurante> restaurante, ArrayList<Cliente> clientes) 
@@ -31,6 +32,14 @@ public class BookingMeal
 	{
 		this.clientes = clientes;
 	}
-	
-	
+
+	public int getId() 
+	{
+		return id;
+	}
+
+	public void setId(int id) 
+	{
+		this.id = id;
+	}
 }
